@@ -19,7 +19,8 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest --watch ."
+    "test": "vitest --watch .",
+    "debug": "vitest --test-timeout 999999999"
   },
   "dependencies": {
     "ink": "^4.4.1",
