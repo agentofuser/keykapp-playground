@@ -17,4 +17,9 @@ export default defineConfig({
   define: {
     'import.meta.vitest': 'undefined',
   },
+  build: {
+    lib: {
+      entry: 'src/main.tsx',
+    },
+  },
 })

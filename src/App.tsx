@@ -3,7 +3,7 @@ import { Box, Text } from 'ink'
 
 function App() {
   const [count, setCount] = useState(0)
-  const messages = ['Hello', 'World', 'Foo', 'Bar']
+  const messages = ['Hello', 'Worlds', 'Foo', 'Bar']
   const currentMessage = messages[count % messages.length]
 
   useEffect(() => {
