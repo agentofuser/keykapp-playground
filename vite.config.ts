@@ -17,4 +17,7 @@ export default defineConfig({
   define: {
     'import.meta.vitest': 'undefined',
   },
+  resolve: {
+    mainFields: ['module', 'main'],
+  },
 })
