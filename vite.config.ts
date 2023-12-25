@@ -1,11 +1,11 @@
 /// <reference types="vitest" />
 import { defineConfig } from 'vite'
-// import { configDefaults } from 'vitest/config'
 import react from '@vitejs/plugin-react'
+import { node } from '@liuli-util/vite-plugin-node'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), node({ entry: 'src/index.tsx', dts: true })],
   test: {
     // ...configDefaults,
     // testMatch: ['**/*.test.tsx'],
@@ -16,11 +16,5 @@ export default defineConfig({
   },
   define: {
     'import.meta.vitest': 'undefined',
-  },
-  build: {
-    lib: {
-      entry: 'src/main.tsx',
-      name: 'keykapp',
-    },
   },
 })
