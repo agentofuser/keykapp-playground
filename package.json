@@ -3,6 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/keykapp.umd.cjs",
+  "module": "dist/keykapp.js",
+  "exports": {
+    ".": {
+      "import": "./dist/keykapp.js",
+      "require": "./dist/keykapp.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite-node --watch src/main.tsx",
     "build": "tsc && vite build",

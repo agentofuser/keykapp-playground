@@ -20,6 +20,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/main.tsx',
+      name: 'keykapp',
     },
   },
 })
