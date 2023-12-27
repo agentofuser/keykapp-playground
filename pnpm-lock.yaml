@@ -17,6 +17,9 @@ dependencies:
   react:
     specifier: ^18.2.0
     version: 18.2.0
+  wasm-git:
+    specifier: ^0.0.12
+    version: 0.0.12
 
 devDependencies:
   '@liuli-util/vite-plugin-node':
@@ -2970,6 +2973,10 @@ packages:
       - supports-color
       - terser
     dev: true
+
+  /wasm-git@0.0.12:
+    resolution: {integrity: sha512-ndWCiX8or7f/4DgtBfkXE1mEmVG7mDUDuXvffW2DC3vSOVy3VycFbffcvkKZVF2kZtiwB1XI3lB7kIKbSNBWrw==}
+    dev: false
 
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}

@@ -26,7 +26,8 @@
     "effect": "2.0.0-next.62",
     "ink": "^4.4.1",
     "isomorphic-git": "^1.25.2",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "wasm-git": "^0.0.12"
   },
   "devDependencies": {
     "@liuli-util/vite-plugin-node": "^0.7.0",
